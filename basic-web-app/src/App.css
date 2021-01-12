@@ -1,0 +1,15 @@
+
+.app-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap:16px;
+  row-gap: 16px;
+}
+.app-section{
+  padding: 30px;
+}
+.app-container{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}

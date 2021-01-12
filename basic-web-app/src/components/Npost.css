@@ -1,0 +1,36 @@
+.n-post{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n-post-bg{
+    background-color: rgba(95, 95, 95, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.n-post-content{
+    position: relative;
+    max-width: 1200px;
+    background-color: black;
+}
+.n-post-content img{
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.n-post-content h4{
+    color: white;
+    text-align: center;
+}
