@@ -6,8 +6,6 @@ import AppSearch from './components/AppSearch';
 import Npost from './components/Npost';
 import nData from './data/data'
 
-
-
 function App() {
     const [selectedNtoo, setSelectNtoo] = useState(null);
     const [searchText, setSearchText] = useState('');
