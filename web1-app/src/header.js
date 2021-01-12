@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function header() {
     return (
@@ -12,9 +13,9 @@ function header() {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><Link to="about" smooth={true} duration={500} class="nav-link js-scroll-trigger" href="#about">About</Link></li>
+                        <li class="nav-item"><Link to="projects" smooth={true} duration={500}  class="nav-link js-scroll-trigger" href="#projects">Projects</Link></li>
+                        <li class="nav-item"><Link to="signup" smooth={true} duration={500}  class="nav-link js-scroll-trigger" href="#signup">Contact</Link></li>
                     </ul>
                 </div>
             </div>
